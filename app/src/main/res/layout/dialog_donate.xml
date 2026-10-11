@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  打赏弹窗内容。
+  外层必须包一层 ScrollView：AlertDialog 的自定义视图区域高度受屏幕限制，
+  内容超长时会被直接裁掉（历史问题：「一天内不再显示」复选框和收款码说明文字
+  在小屏/模拟器上完全看不到，导致每次启动都弹窗）。套上 ScrollView 后可滚动。
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- 警示 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_warning"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_warn_title"
+                android:textColor="#C62828"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/dialog_warn_body"
+                android:textColor="#B71C1C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- 打赏说明 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/dialog_donate_title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/dialog_donate_body"
+            android:textSize="14sp" />
+
+        <!-- 收款码 -->
+        <!-- 注意：父布局是 wrap_content 的垂直 LinearLayout，
+             不能写 layout_height="0dp" + layout_weight="1"（高度会被算成 0，二维码不可见）。
+             原图 1118x1524，用固定高度 + fitCenter 保证完整显示且不变形。 -->
+        <ImageView
+            android:id="@+id/dialog_donate_qr"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="14dp"
+            android:contentDescription="@string/dialog_donate_title"
+            android:scaleType="fitCenter"
+            android:src="@drawable/donate" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/about_donate_qr_caption"
+            android:textSize="13sp" />
+
+        <!-- 一天内不再显示 -->
+        <CheckBox
+            android:id="@+id/dialog_donate_not_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:buttonTint="?attr/colorPrimary"
+            android:text="@string/dialog_donate_not_today"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

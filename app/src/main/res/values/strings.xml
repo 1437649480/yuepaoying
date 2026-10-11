@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">影梭</string>
+    <string name="app_settings">设置</string>
+    <string name="app_history">历史记录</string>
+    <string name="app_author">ZCShou</string>
+    <string name="app_email">zcsexp@gmail.com</string>
+    <string name="app_statement">仅供学习使用，否则后果自负！</string>
+    <string name="app_service_tips">影梭服务正在运行中</string>
+    <string name="app_agreement">用户协议</string>
+    <string name="app_agreement_content">"1. 本软件专为学习 Android 开发使用，不会收集任何用户数据。"
+    "严禁利用本软件侵犯他人隐私权或者用于游戏牟利，如软件使用者不能遵守此规定， 请立即删除。"
+    "对于因用户使用本软件而造成自身或他人隐私泄露等任何不良后果，均由用户自行承担，软件作者不负任何责任。\n"
+    "2. 用户不得对本软件产品进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble）， 违者属于侵权行为，并自行承担由此产生的不利后果。\n"
+    "3. 软件保证不含任何病毒，木马，等破坏用户数据的恶意代码，但是由于本软件产品可以通过网络等途径下载、传播，对于从非软件作者指定站点下载的本软件产品软件作者无法保证该软件是否感染计算机病毒、是否隐藏有伪装的特洛伊木马程序或者黑客软件，不承担由此引起的直接和间接损害责任。\n"
+    "4. 软件会不断更新，以便及时为用户提供新功能和修正软件中的BUG。 同时软件作者保证本软件在升级过程中也不含有任何旨在破坏用户计算机数据的恶意代码。\n"
+    "5. 由于用户计算机软硬件环境的差异性和复杂性，本软件所提供的各项功能并不能保证在任何情况下都能正常执行或达到用户所期望的结果。 用户使用本软件所产生的一切后果，软件作者不承担任何责任。\n"
+    "6. 如果用户自行安装本软件，即表明用户信任软件作者，自愿选择安装本软件，并接受本协议所有条款。 如果用户不接受本协议，请立即删除。\n"
+    </string>
+    <string name="app_privacy">隐私政策</string>
+    <string name="app_privacy_content">"1. 本软件专为学习 Android 开发使用，不会收集任何用户数据。\n"
+    "2. 用户不得对本软件产品进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble）， 违者属于侵权行为，并自行承担由此产生的不利后果。\n"
+    "3. 软件保证不含任何病毒，木马，等破坏用户数据的恶意代码，但是由于本软件产品可以通过网络等途径下载、传播，对于从非软件作者指定站点下载的本软件产品软件作者无法保证该软件是否感染计算机病毒、是否隐藏有伪装的特洛伊木马程序或者黑客软件，不承担由此引起的直接和间接损害责任。\n"
+    "4. 软件会不断更新，以便及时为用户提供新功能和修正软件中的BUG。 同时软件作者保证本软件在升级过程中也不含有任何旨在破坏用户计算机数据的恶意代码。\n"
+    "5. 由于用户计算机软硬件环境的差异性和复杂性，本软件所提供的各项功能并不能保证在任何情况下都能正常执行或达到用户所期望的结果。 用户使用本软件所产生的一切后果，软件作者不承担任何责任。\n"
+    "6. 如果用户自行安装本软件，即表明用户信任软件作者，自愿选择安装本软件，并接受本协议所有条款。 如果用户不接受本协议，请立即删除。\n"
+    </string>
+    <string name="app_agreement_privacy">已阅读《用户协议》和《隐私政策》</string>
+    <string name="app_error_agreement">必须先接受\n《用户协议》和《隐私政策》</string>
+    <string name="app_error_read">请依次阅读并接受\n《用户协议》和《隐私政策》</string>
+    <string name="app_error_gps">定位不可用，请检查 GPS 是否开启</string>
+    <string name="app_error_network">网络不可用，请检查网络连接</string>
+    <string name="app_error_permission">权限不足，请授予相关权限</string>
+    <string name="app_error_input">输入有误，请检查输入是否合法</string>
+    <string name="app_error_input_null">输入不能为空，请重新输入内容</string>
+    <string name="app_error_search">查找失败，请检查网络或定位</string>
+    <string name="app_error_location">请先选择位置</string>
+    <string name="app_error_dev">开发者模式未开启，无法跳转！请自行搜索开启方法</string>
+    <string name="app_error_param">非法参数</string>
+    <string name="app_error_protocol">请先阅读并接收用户协议</string>
+    <string name="app_error_username">用户名不合法</string>
+    <string name="app_error_code">注册码不能为空</string>
+    <string name="app_error_longitude">经度超出限制!\n取值：-180.0 ~ 180.0</string>
+    <string name="app_error_latitude">纬度超出限制!\n取值：-90.0 ~ 90.0</string>
+    <string name="app_search_null">没有匹配结果，请重新搜索</string>
+    <string name="app_search_tips">请输入查找内容</string>
+    <string name="app_location_ok">位置已传送</string>
+    <string name="app_location_copy">位置已复制到剪切板</string>
+    <string name="app_location_save">位置已保存</string>
+
+    <!-- 欢迎页 -->
+    <string name="welcome_btn_txt">进入应用</string>
+    <string name="app_btn_agree">同意并继续</string>
+    <string name="app_btn_disagree">不同意</string>
+
+    <!-- 移动相关参数 -->
+    <string name="setting_group_move">移动</string>
+    <string name="setting_joystick_type">摇杆类型</string>
+    <string name="setting_walk">步行速度(米/秒)</string>
+    <string name="setting_walk_default">1.2</string>
+    <string name="setting_run">跑步速度(米/秒)</string>
+    <string name="setting_run_default">3.6</string>
+    <string name="setting_bike">驾驶速度(米/秒)</string>
+    <string name="setting_bike_default">10.0</string>
+    <string name="setting_altitude">海拔高度(米)</string>
+    <string name="setting_altitude_default">55.0</string>
+
+    <!-- 位置偏移相关参数 -->
+    <string name="setting_group_location_offset">位置偏移</string>
+    <string name="setting_random_offset">随机偏移</string>
+    <string name="setting_random_offset_summary">仅在使用历史位置时生效</string>
+    <string name="setting_random_offset_default">10.0</string>
+    <string name="setting_lat_max_offset">经度最大偏移距离(米)</string>
+    <string name="setting_lon_max_offset">纬度最大偏移距离(米)</string>
+    <!-- 记录相关参数 -->
+    <string name="setting_group_log">记录</string>
+    <string name="setting_group_map">地图（百度 AK）</string>
+    <string name="setting_map_key">地图 KEY</string>
+    <string name="setting_map_key_default">未设置（使用内置 KEY，点击输入）</string>
+    <string name="setting_map_key_saved">地图 KEY 已保存，退出并重启 App 后生效</string>
+    <string name="setting_log_off">关闭日志</string>
+    <string name="setting_history_expiration">历史记录有效期(天)</string>
+    <!-- 关于相关参数 -->
+    <string name="setting_group_about">关于</string>
+    <string name="setting_version">版本号</string>
+    <string name="setting_author">开发者</string>
+
+    <!-- 历史记录页面 -->
+    <string name="history_expiration">7</string>
+    <string name="history_location_default_name">地图位置</string>
+    <string name="history_idle">暂无历史记录</string>
+    <string name="history_delete_ok">删除成功！</string>
+    <string name="history_delete_error">删除记录失败</string>
+    <string name="history_error_location">定位失败，请手动选取定位点</string>
+    <string name="history_error_search">未搜索到指定内容</string>
+
+    <!-- 通知栏 -->
+    <string name="note_show">显示摇杆</string>
+    <string name="note_hide">隐藏摇杆</string>
+    <!-- 摇杆 -->
+    <string name="joystick_map_tips">搜索或点击地图位置</string>
+    <string name="joystick_history_tips">搜索或点击历史位置</string>
+    <string name="joystick_history">历史记录</string>
+    <string name="joystick_map">地图</string>
+    <string name="joystick_move">移动</string>
+    <string name="joystick_walk">步行</string>
+    <string name="joystick_run">跑步</string>
+    <string name="joystick_bike">自行车</string>
+    <!-- 导航页 -->
+    <string name="nav_drawer_open">打开导航菜单</string>
+    <string name="nav_drawer_close">关闭导航菜单</string>
+    <string name="nav_menu_history">历史记录</string>
+    <string name="nav_menu_settings">设置</string>
+    <string name="nav_menu_dev">开发人员选项</string>
+    <string name="nav_menu_more">更多</string>
+    <string name="nav_menu_feedback">问题反馈</string>
+    <string name="nav_menu_contact">联系作者</string>
+    <string name="nav_app_tips">仅供学习使用，否则后果自负!</string>
+
+    <!-- 主界面 -->
+    <string name="label_longitude">经度</string>
+    <string name="label_latitude">纬度</string>
+    <string name="input_position_ok">传送</string>
+    <string name="input_position_cancel">取消</string>
+    <string name="input_position_baidu">BD09 坐标系</string>
+    <string name="input_position_gps">GPS 坐标系</string>
+    <string name="input_button">输入位置</string>
+    <string name="cur_position">返回当前位置</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+
+    <!-- 百度地图 -->
+    <string name="map_pic_sate">卫星图</string>
+    <string name="map_pic_normal">普通图</string>
+
+    <!-- 路线 -->
+    <string name="nav_menu_route">路线</string>
+    <string name="app_route">路线</string>
+    <string name="route_editor_title">路线编辑器</string>
+    <string name="route_list_title">我的路线</string>
+    <string name="route_empty">还没有保存的路线\n点击右下角按钮新建</string>
+    <string name="route_tap_tips">点击地图添加途经点，拖动标记可调整位置</string>
+    <string name="route_undo">撤销</string>
+    <string name="route_redo">重做</string>
+    <string name="route_clear">清空</string>
+    <string name="route_save">保存</string>
+    <string name="route_point_count">%1$d 个点 · %2$s</string>
+    <string name="route_name_hint">路线名称</string>
+    <string name="route_name_default">未命名路线</string>
+    <string name="route_saved">路线已保存</string>
+    <string name="route_save_failed">路线保存失败</string>
+    <string name="route_need_two_points">至少需要 2 个点才能保存</string>
+    <string name="route_nothing_undo">没有可撤销的操作</string>
+    <string name="route_nothing_redo">没有可重做的操作</string>
+    <string name="route_undo_done">已撤销上一步</string>
+    <string name="route_redo_done">已重做</string>
+    <string name="route_cleared">已清空</string>
+    <string name="route_clear_confirm">确定清空当前所有途经点吗？</string>
+    <string name="route_point_delete">删除此点</string>
+    <string name="route_point_insert">在此点后插入</string>
+    <string name="route_point_drag_tips">长按并拖动标记可移动位置</string>
+    <string name="route_point_added">已添加第 %1$d 个点</string>
+    <string name="route_point_deleted">已删除第 %1$d 个点</string>
+    <string name="route_point_inserted">已在第 %1$d 点后插入</string>
+
+    <!-- 路线回放 -->
+    <string name="route_mode_once">单次</string>
+    <string name="route_mode_loop">循环</string>
+    <string name="route_mode_roundtrip">往返</string>
+    <string name="route_start_point_jump">直接跳到起点</string>
+    <string name="route_start_point_move">从当前位置走到起点</string>
+    <string name="route_speed_walk">走路</string>
+    <string name="route_speed_run">跑步</string>
+    <string name="route_speed_bike">骑行</string>
+    <string name="route_speed_custom">自定义</string>
+    <string name="route_speed_hint">速度（米/秒）</string>
+    <string name="route_pause">暂停</string>
+    <string name="route_resume">继续</string>
+    <string name="route_stop">结束</string>
+    <string name="route_state_running">运行中</string>
+    <string name="route_state_paused">已暂停</string>
+    <string name="route_state_finished">已完成</string>
+    <string name="route_running_notify">路线回放中</string>
+    <string name="route_paused_notify">路线回放已暂停</string>
+    <string name="route_status_travelled">已走 %1$s</string>
+    <string name="route_status_remain">剩余 %1$s</string>
+    <string name="route_status_eta">预计 %1$s</string>
+    <string name="route_status_loop">第 %1$d 圈</string>
+    <string name="route_status_speed">%1$.1f m/s</string>
+    <string name="route_started">路线回放已开始</string>
+    <string name="route_stopped">路线回放已结束</string>
+    <string name="route_paused_tips">路线已暂停</string>
+    <string name="route_resumed_tips">路线已继续</string>
+    <string name="route_need_start_service">请先启动模拟位置</string>
+    <string name="route_need_points">该路线点数不足，无法回放</string>
+    <string name="route_start_option_title">选择起点方式</string>
+
+    <!-- 路线列表操作 -->
+    <string name="route_action_play">回放</string>
+    <string name="route_action_edit">编辑</string>
+    <string name="route_action_rename">重命名</string>
+    <string name="route_action_duplicate">复制</string>
+    <string name="route_action_export">导出 GPX</string>
+    <string name="route_action_delete">删除</string>
+    <string name="route_delete_confirm">确定删除路线「%1$s」吗？</string>
+    <string name="route_deleted">已删除</string>
+    <string name="route_duplicated">已复制为「%1$s」</string>
+    <string name="route_renamed">已重命名</string>
+    <string name="route_exported">已导出：%1$s</string>
+    <string name="route_export_failed">导出失败</string>
+    <string name="route_import_gpx">导入 GPX</string>
+    <string name="route_import_failed">导入失败，未识别到轨迹点</string>
+    <string name="route_imported">已导入 %1$d 个点</string>
+    <string name="route_search_hint">搜索路线</string>
+    <string name="route_load_failed">路线加载失败</string>
+
+    <!-- 开源说明 / 打赏 -->
+    <string name="nav_menu_about">开源说明</string>
+    <string name="about_warning_title">⚠️ 重要声明 · 请务必读完 ⚠️</string>
+    <string name="about_warning_body">🚫 千万不要用本修改了包名的 APK 去规避悦跑营的「获取手机应用信息」校验。\n\n🚫 千万不能用于悦跑营等校园跑工具的作弊行为。\n\n本作仅为 Android 定位模拟技术的学习与开发调试用途而开源，使用即表示你已理解并愿意自行承担一切后果。</string>
+    <string name="about_donate_title">支持一下</string>
+    <string name="about_donate_body">开源不易，维护更不易。这个项目不赚钱、没收过一分钱，都是熬夜白干的。\n如果它帮到了你，手头宽裕的哥哥姐姐可以请我喝杯奶茶，一块两块都行，全看你心意，多少都非常感谢！</string>
+    <string name="about_donate_qr_caption">微信扫码 · 会飞的羊（**翔）· 谢谢每一位哥哥姐姐！</string>
+    <string name="about_repo_title">项目地址（GPL-3.0 开源）</string>
+    <string name="about_repo_placeholder">仓库地址待填写（开源筹备中）</string>
+    <string name="about_readme_title">README</string>
+    <string name="about_readme_loading">正在加载…</string>
+    <string name="about_readme_failed">README 加载失败</string>
+    <string name="about_license">本项目基于 GPL-3.0 发布。原作者：影梭 - Copyright (C) ZCShou\nhttps://github.com/ZCShou/GoGoGo</string>
+
+    <!-- 启动打赏弹窗 -->
+    <string name="dialog_warn_title">⚠️ 使用声明</string>
+    <string name="dialog_warn_body">本 APP 不得用于悦跑营等校园跑工具作弊，也不得用于规避任何 APP 的应用信息校验。违者后果自负。</string>
+    <string name="dialog_donate_title">喜欢这个开源项目吗？</string>
+    <string name="dialog_donate_body">作者不赚钱，收不到一分钱。\n有能力支持开源的哥哥姐姐，请我喝杯奶茶吧~\n一块两块都行，谢谢各位哥哥姐姐！</string>
+    <string name="dialog_donate_not_today">一天内不再显示</string>
+    <string name="dialog_donate_close">知道了</string>
+    <string name="dialog_donate_more">了解更多</string>
+
+</resources>
