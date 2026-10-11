@@ -84,12 +84,6 @@
 
 从本仓库的 [Releases](https://github.com/1437649480/yuepaoying/releases) 下载 `app-release.apk` 直接安装即可，无需 ROOT。
 
-> **首次使用需要地图**：进「侧边栏 → 设置 → 地图（百度 AK）」填入你自己的百度地图  
-> AK（[免费申请](https://lbsyun.baidu.com)，应用类型选 **Android SDK**）：  
-> 包名填 `yiyisiwu.yi.si`，SHA-1 填本 APK 的签名指纹  
-> `61:ED:37:7E:85:D3:86:A8:DF:EE:6B:86:4B:D8:5B:0B:FA:A5:AF:81`。  
-> 保存后**完全退出 App 重开**即可。定位模拟功能本身不依赖地图，不填也能用，  
-> 只是底图加载不出来。
 
 ## 五、构建
 
